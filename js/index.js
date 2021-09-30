@@ -112,7 +112,7 @@ document.addEventListener("DOMContentLoaded", function() {
     })
 
     equalsButton.addEventListener('click', button => {
-        calculator.clear()
+        calculator.compute()
         calculator.updateDisplay()
     })
 
